@@ -49,7 +49,7 @@ body {
     margin: 100px auto;
   }
   .header {
-    color: #A66CFF;
+    background: linear-gradient(to right, rgba(78, 42, 168, 0.685), rgba(129, 2, 161, 0.586)),url(../assets/common-bg.svg);
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -95,7 +95,7 @@ body {
   }
 
   .nav-link:hover {
-    color: #0900bc;
+    color: #561fb9;
   }
 
   .pro {
@@ -314,4 +314,5 @@ body {
   align-items: center;
   margin-top: 2rem;
   width: 100%;
+  color: white;
 }
